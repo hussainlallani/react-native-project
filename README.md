@@ -47,3 +47,13 @@ export default App() {
 
 ##  Modify your app.json (Expo only)
 app.json
+{
+  "expo": {
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
+
+## @react-native/metro-config
+npm i @react-native/metro-config
