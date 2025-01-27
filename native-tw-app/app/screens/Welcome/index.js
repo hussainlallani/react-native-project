@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, ImageBackground, Text, View } from "react-native";
+import { Link } from "expo-router";
 import AppButton from "../../components/AppButton";
 
 const Welcome = ({ navigation }) => {
@@ -15,6 +16,11 @@ const Welcome = ({ navigation }) => {
           className="w-[100px] h-[100px]"
         />
         <Text className="text-xl">Sell what you don&apos;t need</Text>
+      </View>
+      <View>
+        <Text>Home</Text>
+        <Link href="/details">View first user details</Link>
+        <Link href="/details/2">View second user details</Link>
       </View>
       <View className="flex gap-5">
         <AppButton title="Login" color="primary" />

@@ -2,6 +2,7 @@
   "expo": {
     "name": "native-tw-app",
     "slug": "native-tw-app",
+    "scheme": "native-tw-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
