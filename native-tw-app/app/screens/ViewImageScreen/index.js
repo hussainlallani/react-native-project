@@ -7,13 +7,11 @@ const ViewImageScreen = () => {
     "absolute text-xl align-middle text-center h-10 w-10 top-5";
   return (
     <View className="bg-black">
-      <Text
-        className={`${defaultButtonStyle} bg-[${colors["primary"]}] left-5`}
-      >
+      <Text className={`${defaultButtonStyle} bg-[${colors.primary}] left-5`}>
         X
       </Text>
       <Text
-        className={`${defaultButtonStyle} bg-[${colors["secondary"]}] right-5`}
+        className={`${defaultButtonStyle} bg-[${colors.secondary}] right-5`}
       >
         X
       </Text>
