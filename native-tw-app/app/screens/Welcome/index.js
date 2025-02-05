@@ -19,7 +19,7 @@ const Welcome = ({ navigation }) => {
       </View>
       <View>
         <Text>Home</Text>
-        <Link href="/details">View first user details</Link>
+        <Link href="/screens/ViewImageScreen/">View first user details</Link>
         <Link href="/details/2">View second user details</Link>
       </View>
       <View className="flex gap-5">
