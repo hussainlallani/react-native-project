@@ -6,9 +6,11 @@ import Welcome from "./app/screens/Welcome";
 
 export default function App() {
   return (
-    <SafeAreaView className="flex-1 bg-none">
-      <StatusBar style="auto" />
-      <Welcome />
-    </SafeAreaView>
+    <>
+      {/* <SafeAreaView> */}
+      {/* <StatusBar style="auto" /> */}
+      {/* <Welcome /> */}
+      {/* </SafeAreaView> */}
+    </>
   );
 }

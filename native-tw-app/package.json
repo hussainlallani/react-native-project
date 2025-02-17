@@ -19,14 +19,15 @@
     "react-native": "0.76.6",
     "react-native-reanimated": "^3.16.7",
     "react-native-safe-area-context": "^5.1.0",
+    "react-native-swipeable": "^0.6.0",
     "react-native-web": "~0.19.13",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@react-native-community/cli": "latest",
-    "typescript": "^5.3.3",
-    "@types/react": "~18.3.12"
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
